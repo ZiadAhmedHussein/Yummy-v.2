@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+/* utilities */
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.lazy-load {
+  display: none;
+}
+
+
+
+
+
+
+/* navbar */
+nav.main-navbar 
+.navbar-content {
+  width: 270px;
+}
+.navbar-shower .logo {
+  width: 50px;
+}
+
+.navbar-shower .navbar-shower-icon i {
+  cursor: pointer;
+}
+
+
+/* header */
+header .search-meals {
+  display: none;
+}
+
+.mail-card-content {
+  cursor: pointer;
+}
+.mail-card-content
+.mail-name, 
+.mail-card-content
+.catigory-name{
+  top: 100%;
+  transition: .4s;
+  background-color: rgba(255, 255, 255, 0.562);
+}
+
+.mail-card-content:hover
+.mail-name,
+.mail-card-content:hover
+.catigory-name{
+  top: 0;
+}
+
+.area-card-content {
+  cursor: pointer;
+}
+.ingredient-card-content {
+  cursor: pointer;
+}
+
+/* section:meal details */
+/* section.meal-details {
+  display: none;
+} */
+
+
+
+/* category section */
+/* .category-card-content
+.category-name {
+  top: 100%;
+  transition: .4s;
+  background-color: rgba(255, 255, 255, 0.685);
+}
+.category-card-content:hover
+.category-name {
+  top: 0;
+}
+section.meal-categories {
+  display: none;
+} */
